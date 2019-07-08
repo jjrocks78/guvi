@@ -1,6 +1,6 @@
-n=int(input())
+n2=int(input())
 l=[]
-for i in range(n):
+for i in range(n2):
     m=input()
     l.append(m)
 l.sort(reverse=True)
