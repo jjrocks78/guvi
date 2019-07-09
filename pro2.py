@@ -11,11 +11,16 @@ if d!=0:
             f=c.find(str(i))
             c=c[f:]
             st=st+str(i)
+            #print(c,st)
             count+=1
         else:
             pass
         if count==l-d:
             print(st)
             break
+    if count!=l-d:
+        z=l-d-count
+        st=st+c[-z:]
+        print(st)
 else:
     print(c)
