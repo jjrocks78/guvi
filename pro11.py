@@ -6,5 +6,8 @@ def fact(a):
     return fact
 
 n=int(input())
-m=fact(n-1)
+if n %2==0:
+    m=fact(n-1)
+elif n%2==1:
+    m= n
 print(m)
