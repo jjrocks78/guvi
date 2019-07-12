@@ -12,3 +12,8 @@ for j in range(s,0,-1):
     for k in range(1,s):
         if pow(2,j)-k in p:
             print(pow(2,j)-k)
+for l in range(s,0,-1):
+    if pow(2,l) in p:
+        print(pow(2,l))
+if pow(2,0) in p:
+    print(pow(2,0))
