@@ -9,7 +9,7 @@ q=max(p)
 s=int(math.ceil(q**0.5))
 #print(q, s)
 for j in range(s,0,-1):
-    for k in range(1,s):
+    for k in range(1,s+1):
         if pow(2,j)-k in p:
             print(pow(2,j)-k)
             p.remove(pow(2,j)-k)
