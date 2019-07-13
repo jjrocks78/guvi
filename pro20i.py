@@ -13,6 +13,5 @@ for j in range(0,len(q)):
         a=M//q[j]
         M=M-a*q[j]
         count+=a
-    elif M==0:
-        print(count)
-        break
+
+print(count)
