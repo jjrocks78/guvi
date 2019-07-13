@@ -13,8 +13,11 @@ z=[]
 for j in range(0,w):
     for k in l:
         if not(k in z):
-            z.append(k)
-            count=l.count(k)
-            res+=count*b
-            b+=1
+            if k>w:
+                b=0
+            else:
+                z.append(k)
+                count=l.count(k)
+                res+=count*b
+                b+=1
 print(res)
