@@ -15,5 +15,6 @@ for j in range(1,len(q)):
     if int(av1)==int(av2):
         print("yes")
         b=1
+        break
 if b==0:
     print("no")
