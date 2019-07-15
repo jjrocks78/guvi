@@ -5,15 +5,16 @@ p=[]
 for i in a:
     p.append(int(i))
 q=[]
-c=1
-for j in range(0,num-1):
-    if p[j]<p[j+1]:
-        c+=1
-    else:
-        q.append(c)
-        #print(q)
-        c=1
-    #print(j,count)
-q.append(c)
-print(max(q))
 
+for j in range(0,num):
+    c = 1
+    for k in range(j+1,num):
+        if p[j]<p[k]:
+            c+=1
+            p[j]=p[k]
+
+
+        #print(j,k,c,p)
+    q.append(c)
+
+print(max(q))
