@@ -10,7 +10,7 @@ for j in range(0,num-1):
     if p[j]<p[j+1]:
         c+=1
     else:
-        q.append(count)
+        q.append(c)
         #print(q)
         c=1
     #print(j,count)
