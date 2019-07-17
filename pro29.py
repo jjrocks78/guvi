@@ -13,7 +13,7 @@ while k!=0:
     c+=1
 #print(c)
 
-for i in range(100000000,n):
+for i in range(1,n):
     z=i
     b=0
 
