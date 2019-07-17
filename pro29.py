@@ -22,7 +22,7 @@ for i in range(100000000,n):
         j=z%10
         b+=j
         z = z // 10
-        print (i,j,"hi",b)
+        #print (i,j,"hi",b)
     if i+b==n:
         count+=1
         d.append(i)
