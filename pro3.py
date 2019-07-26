@@ -21,13 +21,13 @@ while x!=y:
         if len(x)>len(y):
             #print("2")
             a=len(x)-len(y)
-            x=x[:a+2]
+            x=x[:len(y)]
             #print(x)
             c+=a
         elif len(y)>len(x):
             #print("3")
             a = len(y) - len(x)
-            y = y[:a+2]
+            y = y[:len(x)]
             c+=a
             #print(y , c)
 
